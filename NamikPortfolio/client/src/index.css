@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #756057;
+  --foreground: hsl(0, 0%, 0%);
+  --card: hsl(0, 0%, 98%);
+  --card-foreground: hsl(0, 0%, 0%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(0, 0%, 0%);
+  --primary: hsl(0, 0%, 0%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(0, 0%, 96%);
+  --secondary-foreground: hsl(0, 0%, 0%);
+  --muted: hsl(0, 0%, 96%);
+  --muted-foreground: hsl(0, 0%, 0%);
+  --accent: hsl(0, 0%, 96%);
+  --accent-foreground: hsl(0, 0%, 0%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(0, 0%, 90%);
+  --input: hsl(0, 0%, 96%);
+  --ring: hsl(0, 0%, 0%);
+  --chart-1: hsl(0, 0%, 0%);
+  --chart-2: hsl(0, 0%, 42%);
+  --chart-3: hsl(0, 0%, 20%);
+  --chart-4: hsl(0, 0%, 60%);
+  --chart-5: hsl(0, 0%, 80%);
+  --sidebar: hsl(0, 0%, 98%);
+  --sidebar-foreground: hsl(0, 0%, 0%);
+  --sidebar-primary: hsl(0, 0%, 0%);
+  --sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --sidebar-accent: hsl(0, 0%, 96%);
+  --sidebar-accent-foreground: hsl(0, 0%, 0%);
+  --sidebar-border: hsl(0, 0%, 90%);
+  --sidebar-ring: hsl(0, 0%, 0%);
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: Menlo, monospace;
+  --radius: 0.5rem;
+  --warm-gray: hsl(0, 0%, 0%);
+  --charcoal: hsl(0, 0%, 18%);
+}
+
+.dark {
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(0, 0%, 100%);
+  --card: hsl(0, 0%, 4%);
+  --card-foreground: hsl(0, 0%, 100%);
+  --popover: hsl(0, 0%, 0%);
+  --popover-foreground: hsl(0, 0%, 100%);
+  --primary: hsl(0, 0%, 100%);
+  --primary-foreground: hsl(0, 0%, 0%);
+  --secondary: hsl(0, 0%, 8%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(0, 0%, 8%);
+  --muted-foreground: hsl(0, 0%, 65%);
+  --accent: hsl(0, 0%, 8%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(0, 0%, 15%);
+  --input: hsl(0, 0%, 8%);
+  --ring: hsl(0, 0%, 100%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-serif antialiased bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .nav-link:hover {
+    @apply text-[var(--warm-gray)];
+  }
+
+  .nav-link.active {
+    @apply border-b-2 border-black;
+  }
+
+  .lightbox {
+    @apply fixed inset-0 z-50 bg-black bg-opacity-90 hidden items-center justify-center;
+  }
+
+  .lightbox.active {
+    @apply flex;
+  }
+
+  .video-overlay {
+    @apply fixed inset-0 z-50 bg-black bg-opacity-90 hidden items-center justify-center;
+  }
+
+  .video-overlay.active {
+    @apply flex;
+  }
+
+  /* Hide scrollbars */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

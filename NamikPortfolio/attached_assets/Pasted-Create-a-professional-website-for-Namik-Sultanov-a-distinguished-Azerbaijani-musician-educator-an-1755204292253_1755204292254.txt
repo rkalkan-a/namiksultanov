@@ -1,0 +1,56 @@
+Create a professional website for Namik Sultanov, a distinguished Azerbaijani musician, educator, and pianist. The website will showcase his career, music, and biography, and provide a central hub for fans, students, and colleagues to explore his work. The design should be simple, elegant, and professional, with a primary color scheme of black and white for a clean, classic feel. The site must also cater to an older generation of users, so it should be easy to navigate, with clearly labeled sections and functionality that works smoothly across devices.
+Key Pages:
+Home Page
+Welcome message with a brief introduction to Namik Sultanov and his legacy.
+Prominent links to other pages like Biography, Media, and Contact.
+Embedded YouTube video player showing his latest performance video or introduction.
+About Page
+Full biography of Namik Sultanov (you can refer to the biography provided).
+Include sections with information about his early life, musical education, performances, teaching career, and accomplishments.
+Media Page (Gallery + YouTube Videos)
+Gallery section with photos of Namik Sultanov performing, teaching, and interacting with students.
+A section that features clickable YouTube video thumbnails, where users can click and watch the videos directly on the site. These videos should open in a custom player that does not redirect to YouTube (embed videos in a pop-up or a lightbox style).
+Embed his YouTube channel link: https://www.youtube.com/@namiksultan.
+Contact Page
+A simple contact form with fields for Name, Email, and Message.
+A map showing his current location (San Jose, California, USA).
+Include a phone number or email for official contact.
+Functionality & Design Requirements:
+Language Selector in Nav Bar:
+The website should have a language selector in the navigation bar that lets users toggle between English, Russian, Azeri, and Turkish.
+The text on the site should change accordingly based on the selected language (e.g., the biography, navigation text, and general site content).
+Use a JavaScript library like i18next or gettext for translations.
+Navigation Bar:
+The nav bar should be simple and include the following items:
+Home
+About
+Media (with Gallery and Videos)
+Contact
+Ensure the nav bar is fixed at the top for easy access when users scroll.
+Embedded YouTube Player:
+On the Media page, when users click on a video thumbnail, the video should open in a custom YouTube player embedded within the website (no redirection to YouTube).
+The player should have controls for play, pause, volume, and fullscreen options.
+Use YouTube API to embed videos dynamically if there are multiple video links.
+Photo Gallery:
+The gallery should display photos of Namik Sultanov in a grid layout.
+Users should be able to click on individual photos to view them in a larger format (use lightbox for smooth interaction).
+Contact Form:
+Simple contact form with validation (ensure fields are properly filled out before submission).
+The form should send an email or store submissions in a database.
+Mobile Optimization:
+Ensure the website is responsive and functions smoothly on mobile devices, given the potential older audience. Fonts and buttons should be large enough for easy readability and navigation.
+Typography & Visual Style:
+Use a classic serif font for headings and a sans-serif font for body text for a modern but timeless look.
+Ensure the design is minimalist with a strong black-and-white contrast. Avoid overly bright colors to keep the look elegant and understated.
+Technologies to Use:
+HTML5, CSS3, JavaScript for front-end development.
+Bootstrap or a similar framework for layout and responsiveness (if needed).
+YouTube API for embedding videos.
+i18next or gettext for multi-language support.
+PHP or Node.js for the contact form backend (depending on the server-side technology used).
+Lightbox or Fancybox for the photo gallery.
+Additional Notes:
+Ensure accessibility standards are met (e.g., large font sizes, easy navigation).
+Test on various browsers (Chrome, Firefox, Safari) and ensure compatibility with both desktop and mobile.
+Keep the design professional, polished, and easy to navigate for an older audience.
+This is a comprehensive and clear prompt for the development of Namik Sultanov’s website on Replit. It ensures that the website is tailored to the specific needs of the musician, including the multi-language support, video integration, and user-friendly design
