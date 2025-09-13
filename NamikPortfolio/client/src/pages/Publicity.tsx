@@ -49,7 +49,7 @@ export function Publicity() {
             
             <a
               href={pdfFile}
-              download="Namik-Sultanov-Papa-Journal.pdf"
+              download="Publicity.pdf"
               className="inline-flex items-center px-6 py-3 bg-warm-gray text-white font-medium rounded-lg hover:bg-gray-600 transition-colors"
               data-testid="download-pdf"
             >
