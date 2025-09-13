@@ -26,7 +26,7 @@ export function Publicity() {
           <div className="w-full border border-gray-300 rounded-lg overflow-hidden bg-white">
             <iframe
               src={`${pdfFile}#toolbar=1&navpanes=1&scrollbar=1&page=1&view=FitH`}
-              title="Papa Journal Publication"
+              title="Namik Sultanov Publication"
               className="w-full"
               style={{ height: "80vh", minHeight: "600px" }}
               loading="lazy"
@@ -49,7 +49,7 @@ export function Publicity() {
             
             <a
               href={pdfFile}
-              download="Publicity.pdf"
+              download="Namik-Sultanov-Papa-Journal.pdf"
               className="inline-flex items-center px-6 py-3 bg-warm-gray text-white font-medium rounded-lg hover:bg-gray-600 transition-colors"
               data-testid="download-pdf"
             >
