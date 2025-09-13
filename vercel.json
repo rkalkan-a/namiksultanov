@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "installCommand": "cd NamikPortfolio/client && npm ci",
-  "buildCommand": "cd NamikPortfolio/client && npm run build",
-  "outputDirectory": "NamikPortfolio/dist/public",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
