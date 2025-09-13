@@ -2,7 +2,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 
 export function Publicity() {
   const { t } = useTranslation();
-  const pdfFile = "/assets/papa-journal.pdf";
+  const pdfFile = "/assets/NamikSultanovPublication.pdf";
 
   return (
     <div className="min-h-screen bg-background pt-24 pb-12">
@@ -49,7 +49,7 @@ export function Publicity() {
             
             <a
               href={pdfFile}
-              download="Namik-Sultanov-Papa-Journal.pdf"
+              download="NamikSultanovPublication.pdf"
               className="inline-flex items-center px-6 py-3 bg-warm-gray text-white font-medium rounded-lg hover:bg-gray-600 transition-colors"
               data-testid="download-pdf"
             >
